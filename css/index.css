@@ -1,0 +1,1457 @@
+* {
+    box-sizing: border-box;
+}
+body, p {
+    margin: 0;
+    font-family: "Graphik LCG";
+}
+.align-items-center {
+    align-items: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-evenly{
+    justify-content: space-evenly;
+}
+.justify-content-center {
+    justify-content: center;
+}
+
+.d-flex {
+    display: flex;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.flex-direction-column {
+    flex-direction: column;
+}
+.gap-130{
+    gap: 138px;
+}
+.mb-250{
+    margin-bottom: 250px;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+/*header*/
+.container {
+   max-width: 1290px;
+    margin: 0 auto;
+}
+.header-logo img{
+    transform: scale(0.7);
+    transition: 1s;
+}
+.btn-orange{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF6336;
+    border: 1px solid #FF6336;
+    padding: 0 15px;
+    min-width: 120px;
+}
+.btn-orange:hover{
+    background: darkorange;
+    transform: scale(0.7);
+    transition: 1s;
+}
+.btn-white{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    color: #000000;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 0 15px;
+    min-width: 120px;
+}
+.btn-white:hover{
+    background: darkcyan;
+    transform: scale(0.7);
+    transition: 1s;
+}
+.start a {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    text-decoration: none;
+}
+.start a:hover {
+    color: #FF6336;
+    transition: 1s;
+}
+.header .left{
+    gap:57px;
+}
+.header .nav{
+    gap:51px;
+
+}
+.header .nav a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+}
+.header .nav a:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    color:deeppink;
+}
+.header .button {
+    gap: 10px;
+}
+.header {
+    padding: 25px 0;
+    border-bottom: 1px solid grey;
+}
+
+/*banner*/
+.banner .card {
+    width: 50%;
+}
+.banner {
+    margin: 130px 0 137px;
+}
+.banner .card .card-title {
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 70px;
+    margin-bottom: 51px;
+    width: 110%;
+}
+.banner .card .car-desk {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 50px;
+    width: 90%;
+}
+.banner .btns{
+    margin-bottom: 25px;
+}
+.banner p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+}
+/*tool*/
+
+.tool {
+    background: #FF9C7D;
+    padding: 100px 0;
+}
+.tool .row {
+    gap:70px;
+}
+.tool .tool-title{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    width: 50%;
+}
+.tool .tool-icon{
+    width:100% ;
+}
+/*app*/
+.app {
+    margin: 90px 0 160px;
+}
+.app .row:nth-of-type(even){
+    flex-direction: row-reverse;
+}
+.app .left, .app .right {
+    width: 50%;
+}
+.app .title{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+.app .deck{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.app .deck span {
+    text-decoration: underline;
+}
+
+/*icon*/
+.icon {
+    background: #FFF8E4;
+    padding: 120px 0 150px;
+}
+.icon .icon-title {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 58px;
+}
+.icon .card-list{
+    gap: 58px 114px;
+    justify-content: center;
+}
+.icon .card {
+    width: calc(33% - 100px);
+    text-align: center;
+    padding: 21px 0 0;
+    min-height: 297px;
+}
+.icon .card img {
+    /*margin-bottom: 21px;*/
+}
+.icon .card .card-title{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    /*margin-bottom: 20px;*/
+}
+.icon .card .card-sub {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+}
+.icon .card .card-sub span{
+    text-decoration: underline;
+}
+    /*team*/
+
+.team{
+    margin: 150px 0;
+}
+.team .card-team{
+    width: calc(100% / 3);
+    padding-right: 30px;
+}
+.team .team-title{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 25px;
+}
+.team .card-team-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 34px 0;
+}
+.team .card-team-desk{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+.team .card-team-desk span{
+    text-decoration: underline;
+}
+.team .card-team a{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.team .card-team a:focus{
+    transition: 1s;
+    color:deeppink;
+}
+.team .card-team .img{
+    min-height: 300px;
+}
+
+/* review */
+
+.review{
+    background: #C9E8F2;
+    padding: 53px 0 105px;
+}
+.review .row{
+    gap: 85px
+}
+.review  .text{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 23px;
+}
+
+.review .autor{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 7px;
+}
+/*cake*/
+.cake{
+    background: #DABC98;
+    padding: 70px 0 84px;
+}
+.cake .cake-title{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+}
+.cake .left{
+    width: 65%;
+    gap: 67px;
+    border-right: 1px solid black;
+}
+.cake .right{
+    justify-content: center;
+    width: 35%;
+    gap: 70px;
+}
+/*integrete*/
+.integrete{
+    margin: 169px 0 130px;
+}
+.integrete-title {
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    text-align: center;
+    width: 60%;
+}
+.integrete-sub {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    width: 40%;
+    margin-bottom: 25px;
+}
+.integrete img {
+    margin-bottom: 32px;
+}
+.integrete button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF6336;
+   border: #FF6336;
+    padding: 0 20px;
+}
+.integrete button:hover{
+    font-size: 20px;
+    background: purple;
+    transition: 1s;
+}
+
+/*try*/
+.try {
+    background: #FF9C7D;
+    padding: 119px 0 161px;
+    margin-bottom: 92px;
+}
+.try .try-title{
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    text-align: center;
+    width: 60%;
+    margin-bottom: 29px;
+}
+.try .try-desk{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 57px;
+}
+.try button{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0 40px;
+    background: #000000;
+    border-radius: 0;
+}
+.try button:hover{
+    font-size: 20px;
+    color:indigo;
+    background: chartreuse;
+    transition: 2s;
+}
+/*footer*/
+footer {
+    margin-bottom: 48px;
+}
+footer .row:first-child{
+    gap: 70px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 95px;
+    margin-bottom: 48px;
+}
+footer .col-big{
+    width: 70%;
+    gap: 34px;
+}
+footer .bike{
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+footer .spesial{
+    max-width: 80px;
+    margin-bottom: 11px;
+}
+footer .col-small{
+    width: 30%;
+}
+footer .col-small-title{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 28px;
+}
+footer .col-small-desk{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    width: 90%;
+}
+footer .col-small a{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    text-decoration: none;
+}
+footer .col-small a:hover{
+    font-size: 25px;
+    color: gold;
+    transition: 2s;
+}
+footer .list-title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 21px;
+}
+footer .col-big .list{
+    width: 25%;
+}
+footer .col-big .list ul{
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+    gap: 15px;
+}
+footer .loc p, footer .all{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+footer .loc{
+    gap: 14px;
+}
+@media (max-width: 1200px) {
+    .container {
+    max-width: 960px;
+}
+    .header .nav {
+        gap: 30px;
+    }
+    header .left {
+        gap: 35px;
+    }
+    .banner .card .card-title {
+        font-size: 48px;
+        line-height: 1.1;
+        margin-bottom: 40px;
+    }
+    .banner .card .car-desk {
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 35px;
+    }
+    .banner {
+        margin: 100px 0;
+    }
+    .tool .tool-title {
+        font-size: 40px;
+        line-height: 1.2;
+        width: 55%;
+    }
+    .tool {
+        padding: 80px 0;
+    }
+    .app .title,.icon .icon-title {
+        font-size: 40px;
+        line-height: 1.2;
+    }
+    .app .deck {
+        font-size: 17px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+    .mb-250 {
+        margin-bottom: 150px;
+    }
+    .gap-130 {
+        gap: 115px;
+    }
+    .app {
+        margin: 90px 0 100px;
+    }
+    .icon .icon-title {
+        margin-bottom: 40px;
+    }
+    .icon .card-list {
+        gap: 50px 85px;
+    }
+    .icon .card {
+        width: calc(33% - 60px);
+        min-height: 300px;
+    }
+    .icon .card .card-title {
+        font-size: 22px;
+        line-height: 1.4;
+    }
+    .icon .card .card-sub {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .icon {
+        padding: 100px 0;
+    }
+    .team {
+        margin: 100px 0;
+    }
+    .team .team-title {
+        font-size: 40px;
+        line-height: 1.2;
+        margin-bottom: 15px;
+    }
+    .team .card-team .img {
+        min-height: 250px;
+    }
+    .team .card-team-title {
+        font-size: 25px;
+        line-height: 1.1;
+        margin: 25px 0;
+    }
+    .team .card-team-desk {
+        font-size: 18px;
+        line-height: 1.3;
+        margin-bottom: 18px;
+    }
+    .team .card-team a {
+        font-size: 19px;
+        line-height: 1.3;
+    }
+    .review .text {
+        font-size: 27px;
+        line-height: 1.2;
+        margin-bottom: 15px;
+    }
+    .review .left{
+        width: 90%;
+    }
+
+    .review .autor {
+        font-size: 12px;
+        line-height: 1.2;
+        margin-bottom: 5px;
+    }
+    .review {
+        padding: 50px 0 70px;
+    }
+    .cake .cake-title {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+    .cake .left img {
+        width: 45%;
+    }
+    .cake .right .user{
+        width: 33%;
+    }
+    .cake .right .cap{
+        width: 38%;
+    }
+    .cake .right {
+        width: 35%;
+        gap: 30px;
+    }
+    .cake .left {
+        gap: 50px;
+    }
+    .cake {
+        padding: 60px 0 70px;
+    }
+    .integrete {
+        margin: 100px 0;
+    }
+    .integrete-title {
+        font-size: 50px;
+        line-height: 1.3;
+    }
+    .integrete-sub {
+        font-size: 17px;
+        line-height: 1.3;
+        margin-bottom: 15px;
+    }
+    .integrete img {
+        margin-bottom: 25px;
+        width: 85%;
+    }
+
+    .try {
+        padding: 100px 0 100px;
+        margin-bottom: 80px;
+    }
+    .try .try-title {
+        font-size: 49px;
+        line-height: 1.4;
+        margin-bottom: 20px;
+    }
+    .try .try-desk {
+        font-size: 16px;
+        line-height: 1.2;
+        margin-bottom: 45px;
+    }
+    .try button {
+        line-height: 45px;
+        padding: 0 30px;
+    }
+    footer .col-small-title {
+        font-size: 30px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+    footer .list-title {
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 1.2;
+        margin-bottom: 19px;
+    }
+    footer .col-big .list ul {
+        gap: 11px;
+        font-size: 15px;
+    }
+    footer .col-small-desk {
+        font-size: 16px;
+        line-height: 1.3;
+        margin-bottom: 10px;
+    }
+    footer .col-small a {
+        font-size: 17px;
+        line-height: 1.3;
+        text-decoration: none;
+    }
+
+    footer .col-big {
+        width: 70%;
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+    footer .col-big .list {
+        width: 46%;
+    }
+    footer .bike {
+        max-width: 270px;
+        margin-bottom: 30px;
+    }
+
+}
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .header .left {
+        gap: 23px;
+        margin-bottom: 15px;
+        flex-direction: column;
+    }
+
+    .header {
+        padding: 20px 0;
+    }
+    .header .row{
+        flex-direction: column;
+    }
+
+
+    .btn-white {
+        font-size: 13px;
+        line-height: 1.2;
+        padding: 7px 13px;
+        min-width: 104px;
+        margin-left: 15px;
+    }
+
+    .btn-orange {
+        font-size: 13px;
+        line-height: 1.2;
+        padding: 7px 13px;
+        min-width: 104px;
+    }
+
+    .header .button {
+        gap: 14px;
+        justify-content: center;
+    }
+    .banner .row{
+        flex-direction: column;
+    }
+    .banner .card {
+        width: 100%;
+    }
+
+    .banner .card .card-title {
+        font-size: 45px;
+        margin-bottom: 25px;
+        width: 100%;
+    }
+
+    .banner .card .car-desk {
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+
+    .banner {
+        margin: 60px 0;
+    }
+    .banner .img {
+        display: flex;
+        justify-content: center;
+    }
+    .banner img{
+        width: 85%;
+    }
+
+    .banner p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.3;
+    }
+
+    .tool .tool-title {
+        font-size: 31px;
+        line-height: 1.2;
+    }
+
+    .tool .row {
+        gap: 45px;
+    }
+    .tool .tool-icon{
+        flex-wrap: wrap;
+        gap: 20px 50px;
+        justify-content: center;
+    }
+
+    .tool {
+        padding: 70px 0;
+    }
+
+    .app {
+        margin: 80px 0 90px;
+    }
+
+    .app .title, .icon .icon-title {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .app .deck {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .icon {
+        padding: 90px 0;
+    }
+    .icon .card {
+        width: 40%;
+    }
+
+    .icon .icon-title {
+        margin-bottom: 30px;
+    }
+
+    .app .title, .icon .icon-title {
+        font-size: 27px;
+    }
+
+    .icon .card img {
+        margin-bottom: 15px;
+    }
+
+    .icon .card-list {
+        gap: 40px 80px;
+    }
+
+    .icon .card .card-title {
+        font-size: 20px;
+    }
+
+    .icon .card .card-sub {
+        font-size: 15px;
+    }
+
+    .team .team-title {
+        font-size: 41px;
+        margin-bottom: 10px;
+    }
+
+    .team {
+        margin: 85px 0;
+    }
+    .team .card-team {
+        width: 50%;
+        padding-right: 30px;
+    }
+    .team .row{
+        justify-content: center;
+    }
+
+    .team .card-team .img {
+        min-height: 240px;
+    }
+
+    .team .card-team-title {
+        font-size: 21px;
+        margin: 20px 0;
+    }
+
+    .team .card-team-desk {
+        font-size: 16px;
+        margin-bottom: 13px;
+    }
+
+    .team .card-team a {
+        font-size: 18px;
+    }
+
+    .review {
+        padding: 50px 0;
+    }
+    .review .row {
+        gap: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review .text {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .review .autor {
+        font-size: 13px;
+        line-height: 1.2;
+        margin-bottom: 5px;
+    }
+    .cake .row{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cake .left {
+        gap: 40px;
+        border: 0;
+        margin-bottom: 20px;
+    }
+
+
+    .cake .right {
+        width: 40%;
+        gap: 30px;
+        margin-left: 0;
+    }
+
+    .cake .cake-title {
+        font-size: 22px;
+    }
+    .cake .right .cap{
+        width: 41%;
+    }
+    .cake .right .user{
+        width: 36%;
+    }
+
+    .cake {
+        padding: 50px 0;
+    }
+
+    .integrete {
+        margin: 80px 0;
+    }
+
+    .integrete-title {
+        font-size: 43px;
+    }
+
+    .integrete-sub {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .integrete img {
+        margin-bottom: 30px;
+    }
+
+    .integrete button {
+        font-size: 14px;
+        line-height: 45px;
+    }
+
+    .try .try-title {
+        font-size: 40px;
+        margin-bottom: 14px;
+    }
+
+    .try .try-desk {
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+
+    .try button {
+        font-size: 14px;
+        line-height: 35px;
+    }
+
+    .try {
+        padding: 80px 0;
+        margin-bottom: 70px;
+    }
+    footer {
+        margin-bottom: 30px;
+    }
+    footer .bike {
+        max-width: 200px;
+    }
+    footer .row:first-child {
+        gap: 50px;
+        padding-bottom: 70px;
+        margin-bottom: 30px;
+    }
+
+    footer .col-small-title {
+        font-size: 28px;
+        margin-bottom: 16px;
+    }
+
+    footer .col-small-desk {
+        font-size: 14px;
+        line-height: 1.3;
+        margin-bottom: 7px;
+    }
+
+    footer .list-title {
+        font-size: 15px;
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+    .header .nav a {
+        line-height: 10px;
+    }
+    .header .left {
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    .banner {
+        margin: 30px 0;
+    }
+    .banner .card {
+        width: 100%;
+        text-align: center;
+    }
+    .banner .card .card-title {
+        font-size: 33px;
+        margin-bottom: 15px;
+    }
+    .banner .card .car-desk {
+        font-size: 14px;
+        line-height: 1.6;
+        margin: 0 20px 15px;
+    }
+    .btn-white {
+        margin-left: 10px;
+    }
+    .banner .btns {
+        margin-bottom: 20px;
+    }
+    .banner img {
+        width: 80%;
+    }
+    .tool {
+        padding: 40px 0;
+    }
+    .tool .tool-title {
+        font-size: 25px;
+    }
+    .tool .tool-icon {
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+        width: 17%;
+    }
+
+    .tool .row {
+        gap: 25px;
+    }
+    .app {
+        margin: 40px 0;
+    }
+    .gap-130 {
+        gap: 35px;
+        flex-direction: column;
+    }
+    .app .title, .icon .icon-title {
+        font-size: 25px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .app .deck {
+        font-size: 15px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .start a {
+        font-size: 17px;
+        line-height: 12px;
+        display: block;
+        text-align: center;
+    }
+    .mb-250 {
+        margin-bottom: 40px;
+    }
+    .app .row:nth-of-type(even) {
+        flex-direction: column;
+    }
+    .icon {
+        padding: 50px 0;
+    }
+    .app .title, .icon .icon-title {
+        margin-bottom: 10px;
+    }
+    .icon .card-list {
+        gap: 20px;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .icon .card {
+        width: 25%;
+    }
+    .team {
+        margin: 50px 0;
+    }
+    .team .team-title {
+        font-size: 25px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .team .row {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .team .card-team .img {
+        justify-content: center;
+        min-height: 200px;
+    }
+    .team .card-team-title {
+        font-size: 18px;
+        margin: 15px 0;
+        text-align: center;
+    }
+    .team .card-team-desk {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .team .card-team a {
+        font-size: 17px;
+        text-align: center;
+        display: block;
+    }
+    .review {
+        padding: 35px 0;
+    }
+    .review .text {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+    .review .row {
+        gap: 30px;
+    }
+    .review .right img{
+        width: 75%;
+        margin: auto;
+    }
+    .cake {
+        padding: 30px 0;
+    }
+    .cake .cake-title {
+        font-size: 19px;
+    }
+    .cake .left img {
+        width: 35%;
+    }
+    .cake .left {
+        gap: 33px;
+        border: 0;
+        margin-bottom: 15px;
+        margin-left: 50px;
+    }
+    .cake .right .user {
+        width: 33%;
+    }
+    .cake .right .cap {
+        width: 36%;
+    }
+    .integrete {
+        margin: 50px 0;
+    }
+    .integrete-title {
+        font-size: 30px;
+    }
+    .integrete-sub {
+        margin-bottom: 5px;
+    }
+    .integrete img {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .try {
+        padding: 50px 0;
+        margin-bottom: 40px;
+    }
+    .try .try-title {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .try .try-desk {
+        margin-bottom: 25px;
+    }
+    .try button {
+        line-height: 30px;
+    }
+    footer .row:first-child {
+        gap: 30px;
+        flex-direction: column;
+    }
+    footer .col-small {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    footer .col-big {
+        width: 100%;
+    }
+    footer .row:last-child{
+        flex-direction: column;
+        gap:20px;
+    }
+    footer .all{
+        text-align: center;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+    .header {
+        padding: 10px 0;
+    }
+    .banner {
+        margin: 20px 0;
+    }
+    .banner .card .card-title {
+        font-size: 25px;
+        margin-bottom: 7px;
+    }
+    .banner .card .car-desk {
+        margin: 0 20px 10px;
+    }
+    .banner .btns {
+        margin-bottom: 15px;
+    }
+    .banner img {
+        width: 70%;
+    }
+    .tool {
+        padding: 20px 0;
+    }
+    .tool .tool-title {
+        font-size: 20px;
+    }
+    .tool .tool-icon {
+        width: 14%;
+    }
+    .tool .row {
+        gap: 17px;
+    }
+    .app {
+        margin: 25px 0;
+    }
+    .app .title, .icon .icon-title {
+        font-size: 20px;
+    }
+    .mb-250 {
+        margin-bottom: 30px;
+    }
+    .gap-130 {
+        gap: 25px;
+    }
+    .icon {
+        padding: 30px 0;
+    }
+    .icon .card {
+        width: 20%;
+    }
+    .icon .card {
+        padding: 10px 0 0;
+    }
+    .icon .card-list {
+        gap: 10px;
+    }
+    .icon {
+        padding: 20px 0;
+    }
+    .team .team-title {
+        font-size: 20px;
+        margin-bottom: 7px;
+    }
+    .team .card-team {
+        width: 26%;
+    }
+    .team .card-team-title {
+        margin: 10px 0;
+    }
+    .team .card-team .img {
+        min-height: 175px;
+    }
+    .review .text {
+        font-size: 17px;
+        margin-bottom: 7px;
+    }
+    .review .row {
+        gap: 20px;
+    }
+    .review .right img {
+        width: 70%;
+        margin: auto;
+    }
+    .cake {
+        padding: 20px 0;
+    }
+    .cake .left img {
+        width: 30%;
+    }
+    .cake .left {
+        gap: 25px;
+        margin-bottom: 10px;
+        margin-left: 94px;
+    }
+    .cake .right .user {
+        width: 30%;
+    }
+    .cake .right .cap {
+        width: 32%;
+    }
+    .integrete {
+        margin: 35px 0;
+    }
+    .integrete-title {
+        font-size: 20px;
+    }
+    .integrete img {
+        width: 75%;
+        margin-bottom: 15px;
+    }
+    .try {
+        padding: 30px 0;
+        margin-bottom: 30px;
+    }
+    .try .try-title {
+        font-size: 25px;
+        margin-bottom: 7px;
+    }
+    .try .try-desk {
+        margin-bottom: 18px;
+    }
+    footer .col-small-title {
+        font-size: 25px;
+        margin-bottom: 12px;
+    }
+    footer .bike {
+        max-width: 180px;
+        margin-bottom: 20px;
+    }
+    footer .spesial {
+        max-width: 70px;
+        margin-bottom: 7px;
+    }
+    footer .col-small-desk {
+        margin-bottom: 4px;
+    }
+    footer .col-big .list ul {
+        justify-content: center;
+        align-items: center;
+    }
+    footer .list-title {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    footer .row:first-child {
+        gap: 25px;
+    }
+    footer .row:first-child {
+        gap: 30px;
+        padding-bottom: 50px;
+        margin-bottom: 20px;
+    }
+    footer .loc p, footer .all {
+        line-height: 10px;
+    }
+}
+@media (max-width: 480px) {
+    .header .nav {
+        gap: 20px;
+        flex-direction: column;
+    }
+    .banner .card .card-title {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .tool {
+        padding: 10px 0;
+    }
+    .tool .tool-title {
+        font-size: 18px;
+    }
+    .app .title, .icon .icon-title {
+        font-size: 17px;
+    }
+    .start a {
+        font-size: 16px;
+        line-height: 7px;
+    }
+    .gap-130 {
+        gap: 17px;
+    }
+    .icon {
+        padding: 10px 0;
+    }
+    .icon .card {
+        justify-content: flex-start;
+    }
+    .icon .card .card-sub {
+        width: 205%;
+    }
+    .icon .card .card-title {
+        font-size: 17px;
+    }
+    .team {
+        margin: 25px 0;
+    }
+    .team .card-team-desk {
+        margin-bottom: 10px;
+        text-align: center;
+        width: 276%;
+        margin-left: -65px;
+    }
+    .team .team-title {
+        font-size: 17px;
+    }
+    .review .right img {
+        width: 63%;
+    }
+    .review .left img{
+        width: 20%;
+    }
+    .review {
+        padding: 20px 0;
+    }
+    .cake {
+        padding: 10px 0;
+    }
+    .cake .cake-title {
+        font-size: 17px;
+    }
+    .integrete-title {
+        font-size: 18px;
+    }
+    .integrete {
+        margin: 20px 0;
+    }
+    .integrete button {
+        line-height: 30px;
+    }
+    .try {
+        padding: 20px 0;
+        margin-bottom: 20px;
+    }
+    .try .try-title {
+        font-size: 19px;
+        margin-bottom: 5px;
+    }
+    .try .try-desk {
+        margin-bottom: 10px;
+    }
+    .try button {
+        line-height: 25px;
+    }
+    footer .col-small-title {
+        font-size: 20px;
+        margin-bottom: 7px;
+    }
+    footer .bike {
+        max-width: 160px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 380px) {
+    .icon .card .card-sub {
+        width: 205%;
+    }
+    .team .card-team {
+        width: 32%;
+    }
+    footer .col-big .list {
+        width: 97%;
+    }
+
+}
+@media (max-width: 350px) {
+    /*пишу то что в контейнере*/
+
+}
+

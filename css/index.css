@@ -113,7 +113,7 @@ img {
     gap: 10px;
 }
 .header {
-    padding: 25px 0;
+    padding: 25px 20px;
     border-bottom: 1px solid grey;
 }
 
@@ -123,6 +123,7 @@ img {
 }
 .banner {
     margin: 130px 0 137px;
+    padding: 0 20px;
 }
 .banner .card .card-title {
     font-weight: 600;
@@ -172,9 +173,9 @@ img {
 .app .row:nth-of-type(even){
     flex-direction: row-reverse;
 }
-.app .left, .app .right {
+/*.app .left, .app .right {
     width: 50%;
-}
+}*/
 .app .title{
     font-weight: 600;
     font-size: 50px;
@@ -212,7 +213,7 @@ img {
     width: calc(33% - 100px);
     text-align: center;
     padding: 21px 0 0;
-    min-height: 297px;
+    
 }
 .icon .card img {
     /*margin-bottom: 21px;*/
@@ -527,8 +528,8 @@ footer .loc{
         gap: 50px 85px;
     }
     .icon .card {
-        width: calc(33% - 60px);
-        min-height: 300px;
+       width: calc(33% - 60px);
+        
     }
     .icon .card .card-title {
         font-size: 22px;
@@ -821,6 +822,7 @@ footer .loc{
     .team .team-title {
         font-size: 41px;
         margin-bottom: 10px;
+        text-align: center;
     }
 
     .team {
@@ -1041,6 +1043,7 @@ footer .loc{
         font-size: 15px;
         margin-bottom: 10px;
         text-align: center;
+        padding: 0 10px;
     }
     .start a {
         font-size: 17px;
@@ -1177,6 +1180,7 @@ footer .loc{
     footer .row:last-child{
         flex-direction: column;
         gap:20px;
+        padding: 0 20px;
     }
     footer .all{
         text-align: center;
@@ -1249,7 +1253,7 @@ footer .loc{
         margin-bottom: 7px;
     }
     .team .card-team {
-        width: 26%;
+        width: 100%;
     }
     .team .card-team-title {
         margin: 10px 0;
@@ -1277,7 +1281,7 @@ footer .loc{
     .cake .left {
         gap: 25px;
         margin-bottom: 10px;
-        margin-left: 94px;
+
     }
     .cake .right .user {
         width: 30%;
@@ -1371,6 +1375,7 @@ footer .loc{
     }
     .icon .card {
         justify-content: flex-start;
+        width: 25%;
     }
     .icon .card .card-sub {
         width: 205%;
@@ -1384,11 +1389,12 @@ footer .loc{
     .team .card-team-desk {
         margin-bottom: 10px;
         text-align: center;
-        width: 276%;
-        margin-left: -65px;
+        width: 100%;
+        padding: 10px;
     }
     .team .team-title {
         font-size: 17px;
+        padding: 0 20px;
     }
     .review .right img {
         width: 63%;
